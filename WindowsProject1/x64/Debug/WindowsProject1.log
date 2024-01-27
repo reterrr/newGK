@@ -1,0 +1,154 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (WindowsProject1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(201,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(226,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(226,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(228,74): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(228,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(233,49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(233,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(235,49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(235,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(240,56): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(240,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(242,73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(242,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(246,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(246,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(247,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(247,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(248,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(248,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(249,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(249,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(257,52): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(257,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(258,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(258,38): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(259,49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(259,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(263,53): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(263,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(264,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(264,40): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(265,49): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(265,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(270,52): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(270,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(271,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(271,44): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(272,47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(272,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(276,52): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(276,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(277,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(277,44): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(278,48): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(278,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(287,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(287,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(289,75): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(289,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(294,52): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(294,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(296,52): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(296,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(301,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(301,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(303,75): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(303,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(307,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(307,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(308,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(308,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(309,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(309,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(310,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(310,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(318,52): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(318,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(319,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(319,43): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(320,48): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(320,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(324,52): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(324,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(325,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(325,43): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(326,48): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(326,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(331,51): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(331,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(332,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(332,44): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(333,47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(333,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(337,51): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(337,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(338,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(338,44): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(339,47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(339,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(351,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(352,38): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(358,53): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(358,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(359,51): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(359,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(366,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(366,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(367,58): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(367,37): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(371,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(371,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(372,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(372,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(373,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(373,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(374,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(374,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(382,14): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(383,17): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(383,67): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(384,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(389,17): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(389,67): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(390,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(395,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(395,38): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(400,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(401,17): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(401,42): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(413,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(413,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(414,58): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(414,37): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(419,52): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(419,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(421,53): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(421,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(428,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(429,38): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(434,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(435,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(436,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(437,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(444,14): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(445,17): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(445,67): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(446,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(451,17): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(451,67): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(452,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(457,40): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(462,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(463,40): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(543,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(543,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(543,12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(733,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(919,26): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\user\Desktop\gk\WindowsProject1\main.cpp(920,26): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+  WindowsProject1.vcxproj -> C:\Users\user\Desktop\gk\WindowsProject1\x64\Debug\GK_PROJECT.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
