@@ -75,10 +75,9 @@ Naszym ``łazikiem'' będzie występował zwykły samochód.
 
 Klasa \emph{Wheel} odpowiada za rysowanie koła.
 
+\subsubsection{Plik \emph{Wheel.h}}
 
-\subsubsection{Plik nagłówkowy \emph{Wheel.h}}
-
-Plik \emph{Wheel.h} deklaruje wszystkie zmienne oraz metode, które będą używane obiektami tej klasy.
+Plik \emph{Wheel.h} deklaruje wszystkie zmienne oraz metody, które będą używane obiektami tej klasy.
 
 \lstinputlisting[firstline=2]{../WindowsProject1/Wheel.h}
 
@@ -90,24 +89,43 @@ Plik \emph{Wheel.cpp} zawiera inicjalizacje zmiennych oraz metod opisanych w pli
 
 \subsection{class \emph{SideSciana}}
 \subsubsection{Opis działania}
-\subsubsection{Plik nagłówkowy \emph{SideSciana.h}}
-\lstinputlisting[firstline=2]{../WindowsProject1/SideSciana.h}
-\subsubsection{Plik \emph{SideSciana.cpp}}
-\lstinputlisting{../WindowsProject1/SideSciana.cpp}
 
+Klasa \emph{SideSciana} odpowiada za rysowanie scian bokowych samochodu.
+
+\subsubsection{Plik \emph{SideSciana.h}}
+
+Plik nagłówkowy \emph{SideSciana.h} deklaruje wszystkie zmienne oraz metody, które będą używane obiektami tej klasy.
+
+\lstinputlisting[firstline=2]{../WindowsProject1/SideSciana.h}
+
+\subsubsection{Plik \emph{SideSciana.cpp}}
+
+Plik \emph{SideSciana.cpp} zawiera inicjalizacje zmiennych oraz metod opisanych w pliku nagłówkowym \emph{SideSciana.h}.
+
+\lstinputlisting{../WindowsProject1/SideSciana.cpp}
 
 \subsection{class \emph{Front}}
 \subsubsection{Opis działania}
-\subsubsection{Plik nagłówkowy \emph{Front.h}}
+Klasa \emph{Front} odpowiada za rysowanie przdniej ściany samochodu.
+
+\subsubsection{Plik \emph{Front.h}}
+Plik nagłówkowy \emph{Front.h} deklaruje wszystkie zmienne oraz metody, które będą używane obiektami tej klasy.
 \lstinputlisting[firstline=2]{../WindowsProject1/Front.h}
+
 \subsubsection{Plik \emph{Front.cpp}}
+Plik \emph{Front.cpp} zawiera inicjalizacje zmiennych oraz metod opisanych w pliku nagłówkowym \emph{Front.h}.
 \lstinputlisting{../WindowsProject1/Front.cpp}
 
 \subsection{class \emph{Back}}
 \subsubsection{Opis działania}
-\subsubsection{Plik nagłówkowy \emph{Back.h}}
+Klasa \emph{Back} odpowiada za rysowanie tylnej ściany samochodu.
+
+\subsubsection{Plik \emph{Back.h}}
+Plik nagłówkowy \emph{Back.h} deklaruje wszystkie zmienne oraz metody, które będą używane obiektami tej klasy.
 \lstinputlisting[firstline=2]{../WindowsProject1/Back.h}
+
 \subsubsection{Plik \emph{Back.cpp}}
+Plik \emph{Back.cpp} zawiera inicjalizacje zmiennych oraz metod opisanych w pliku nagłówkowym \emph{Back.h}.
 \lstinputlisting{../WindowsProject1/Back.cpp}
 
 \chapter{Budowa otoczenia}
@@ -123,6 +141,18 @@ Wymagania dotyczące budowy otoczenia:
 
 \section{Realizaja zadania}
 
+\subsection{class Podloze}
+
+Klasa \emph{Podloze} odpowiada za rysowanie otoczenia. Plik \emph{Podloze.cpp} zawiera ponat 29 tys. linii kodu więc nie będzie umieszczony w sprawozdaniu.
+
+\subsubsection{Opis działania}
+
+Podłoże zostało eksportowane z programu \emph{Blender}.
+
+\subsubsection{Plik \emph{Podloze.h}}
+
+\lstinputlisting{../WindowsProject1/Podloze.h}
+
 \chapter{Teksturowanie}
 \section{Opis zadania}
 
@@ -137,6 +167,8 @@ Wymagania dotyczące dodania teksurowania.
 \end{itemize}
 \section{Realizacja zadania}
 
+\lstinputlisting[firstline=521, lastline=531]{../WindowsProject1/main.cpp}
+
 \chapter{Sterowanie obiektem głównym}
 \section{Opis zadania}
 Należy dokonać sterowanie obiektem głównym.
@@ -148,4 +180,19 @@ Wymagania dotyczące sterowania obiektem głównym.
 \item Na ocenę 5: Jak na ocenę 4 oraz implementacja podstawowych zagadnień fizycznych np. pęd ciała.
 \end{itemize}
 \section{Realizacja zadania}
+
+W pliku głównym \emph{main.cpp} są 8 zmiennych odpowiadających za naciśnięcie klawisz.
+
+\lstinputlisting[firstline=27,lastline=34]{../WindowsProject1/MAIN.cpp}
+
+Niżej w tym samym pliku znajduje się \verb|switch\case|, który cały czas sprawdza czy klawisze są naciśnięte i w zależności od tego zmienne przyjmują inne wartości(\verb|true| albo \verb|false|).
+
+\lstinputlisting[firstline=897,lastline=970]{../WindowsProject1/MAIN.cpp}
+
+W funkcji \emph{RenderScene} znajduje się fragment kodu, który sprawdza stany zmiennych.
+
+\lstinputlisting[firstline=532, lastline=547]{../WindowsProject1/MAIN.cpp}
+
+W zależności od wartości zmiennej będą również zmienione zmienne: \verb|posX|, \verb|posY|, \verb|posZ|. Wartości odpowiadają za pozycję samochodui na płaszczyźnie. 
+
 \end{document}
