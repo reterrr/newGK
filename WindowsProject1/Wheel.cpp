@@ -1,19 +1,12 @@
 #include "Wheel.h"
 
-Wheel::Wheel(const float radius, const float width, const float posX, const float posY, const float posZ) : radius(radius), 
-																											width(width), 
-																											posX(posX), 
-																											posY(posY), 
-																											posZ(posZ)
-{}
+Wheel::Wheel(const float radius, const float width, const float posX, const float posY, const float posZ) : radius(radius), width(width), posX(posX), posY(posY),posZ(posZ){}
 
 
 
-void Wheel::cuboid(const float angle, const float partAngle, const float posY, const float width, const float heigth) const
-{
+void Wheel::cuboid(const float angle, const float partAngle, const float posY, const float width, const float heigth) const {
 	glBegin(GL_TRIANGLE_STRIP);
-		for (float alpha = angle; alpha <= partAngle; alpha += GL_PI / 32)
-		{
+		for (float alpha = angle; alpha <= partAngle; alpha += GL_PI / 32){
 			float x1 = radius * cos(alpha);
 			float z1 = radius * sin(alpha);
 
@@ -25,8 +18,7 @@ void Wheel::cuboid(const float angle, const float partAngle, const float posY, c
 	glEnd();
 	
 	glBegin(GL_TRIANGLE_STRIP);
-		for (float alpha = angle; alpha <= partAngle; alpha += GL_PI / 32)
-		{
+		for (float alpha = angle; alpha <= partAngle; alpha += GL_PI / 32){
 			float x1 = radius * cos(alpha);
 			float z1 = radius * sin(alpha);
 
@@ -38,8 +30,7 @@ void Wheel::cuboid(const float angle, const float partAngle, const float posY, c
 	glEnd();
 
 	glBegin(GL_TRIANGLE_STRIP);
-		for (float y = posY; y <= width + posY; y++)
-		{
+		for (float y = posY; y <= width + posY; y++){
 			float x1 = radius * cos(angle);
 			float z1 = radius * sin(angle);
 
@@ -52,8 +43,7 @@ void Wheel::cuboid(const float angle, const float partAngle, const float posY, c
 	glEnd();
 
 	glBegin(GL_TRIANGLE_STRIP);
-		for (float alpha = angle; alpha <= partAngle; alpha += GL_PI / 32)
-		{
+		for (float alpha = angle; alpha <= partAngle; alpha += GL_PI / 32){
 			float x2 = (radius + heigth) * cos(alpha);
 			float z2 = (radius + heigth) * sin(alpha);
 
@@ -63,8 +53,7 @@ void Wheel::cuboid(const float angle, const float partAngle, const float posY, c
 	glEnd();
 
 	glBegin(GL_TRIANGLE_STRIP);
-		for (float y = posY; y <= width + posY; y++)
-		{
+		for (float y = posY; y <= width + posY; y++){
 			float x1 = radius * cos(partAngle);
 			float z1 = radius * sin(partAngle);
 
@@ -77,15 +66,12 @@ void Wheel::cuboid(const float angle, const float partAngle, const float posY, c
 	glEnd();
 }
 
-void Wheel::outerObject() const
-{
+void Wheel::outerObject() const{
 	glColor3f(0.0, 0.0, 0.0);
 
-	for (float y1 = posY ; y1 < width + posY; y1 += 1.0f)
-	{
+	for (float y1 = posY ; y1 < width + posY; y1 += 1.0f){
 		glBegin(GL_TRIANGLE_STRIP);
-			for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32)
-			{
+			for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32){
 				float x1 = radius * cos(alpha);
 				float z1 = radius * sin(alpha);
 			
@@ -97,14 +83,12 @@ void Wheel::outerObject() const
 	this->protector();
 }
 
-void Wheel::innerObject() const 
-{
+void Wheel::innerObject() const {
 	glColor3f(0.0f, 0.0f, 0.0f);
 
 	glBegin(GL_TRIANGLE_FAN);
 	glVertex3f(posX, posZ, posY);
-		for (float alpha = 0.0f; alpha <= 2 * GL_PI; alpha += GL_PI / 32) 
-		{
+		for (float alpha = 0.0f; alpha <= 2 * GL_PI; alpha += GL_PI / 32) {
 			float x1 = 0.1 * radius * cos(alpha);
 			float z1 = 0.1 * radius * sin(alpha);
 
@@ -113,8 +97,7 @@ void Wheel::innerObject() const
 	glEnd();
 
 	glBegin(GL_TRIANGLE_STRIP);
-		for (float alpha = 0.0; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32)
-		{
+		for (float alpha = 0.0; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32){
 			float x1 = radius * cos(alpha);
 			float z1 = radius * sin(alpha);
 
@@ -126,11 +109,9 @@ void Wheel::innerObject() const
 		}
 	glEnd();
 
-	for (float y1 = posY + 5.0; y1 < width + posY; y1 += 1.0f)
-	{
+	for (float y1 = posY + 5.0; y1 < width + posY; y1 += 1.0f){
 		glBegin(GL_TRIANGLE_STRIP);
-			for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32)
-			{
+			for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32){
 				float x1 = (radius - 10.0) * cos(alpha);
 				float z1 = (radius - 10.0) * sin(alpha);
 
@@ -142,8 +123,7 @@ void Wheel::innerObject() const
 
 	glBegin(GL_TRIANGLE_STRIP);
 	glColor3f(0.0,0.0,0.0);
-	for (float alpha = 0.0; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32)
-	{
+	for (float alpha = 0.0; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32){
 		float x1 = radius * cos(alpha);
 		float z1 = radius * sin(alpha);
 
@@ -155,11 +135,9 @@ void Wheel::innerObject() const
 	}
 	glEnd();
 
-	for (float y1 = posY + 10.0; y1 < width + posY; y1 += 1.0f)
-	{
+	for (float y1 = posY + 10.0; y1 < width + posY; y1 += 1.0f){
 		glBegin(GL_TRIANGLE_STRIP);
-		for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32)
-		{
+		for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32){
 			float x1 = (radius - 15.0) * cos(alpha);
 			float z1 = (radius - 15.0) * sin(alpha);
 
@@ -169,12 +147,10 @@ void Wheel::innerObject() const
 		glEnd();
 	}
 
-	for (float y1 = posY + 10.0; y1 < width + posY; y1 += 1.0f)
-	{
+	for (float y1 = posY + 10.0; y1 < width + posY; y1 += 1.0f){
 		glBegin(GL_TRIANGLE_STRIP);
 		glColor3f(0.0f, 0.0f, 0.0f);
-			for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32)
-			{
+			for (float alpha = 0.0f; alpha <= 2 * GL_PI + 1; alpha += GL_PI / 32){
 				float x1 = (radius - 25.0) * cos(alpha);
 				float z1 = (radius - 25.0) * sin(alpha);
 
@@ -184,14 +160,12 @@ void Wheel::innerObject() const
 		glEnd();
 	}
 
-	for (float alpha = 0.0; alpha <= 2 * GL_PI; alpha += GL_PI / 4)
-	{
+	for (float alpha = 0.0; alpha <= 2 * GL_PI; alpha += GL_PI / 4){
 		this->crochet(alpha);
 	}
 }
 
-void Wheel::crochet(const float alpha) const
-{
+void Wheel::crochet(const float alpha) const{
 	glColor3f(0.0, 0.0, 0.0);
 	
 	glBegin(GL_TRIANGLE_FAN);
@@ -214,16 +188,13 @@ void Wheel::crochet(const float alpha) const
 	glEnd();
 }
 
-void Wheel::protector() const
-{
+void Wheel::protector() const{
 	glColor3f(0.0, 0.0, 0.0);
 	const float heigth = 3.0f, width = 5.0f, length = GL_PI / 32, spaceAngle = GL_PI / 64;
 	bool pos = 0;
 
-	for (float y = this->posY ; y <= this->width + this->posY; y += width + (this->width - 5 * width) / 4)
-	{
-		for (float alpha = pos == 0 ? length / 2 : 0.0; alpha <= 2 * GL_PI; alpha += length + spaceAngle)
-		{
+	for (float y = this->posY ; y <= this->width + this->posY; y += width + (this->width - 5 * width) / 4){
+		for (float alpha = pos == 0 ? length / 2 : 0.0; alpha <= 2 * GL_PI; alpha += length + spaceAngle){
 			this->cuboid(alpha, alpha + length, y, width, heigth);
 		}
 		pos = !pos;
@@ -231,8 +202,7 @@ void Wheel::protector() const
 }
 
 
-void Wheel::draw() const
-{
+void Wheel::draw() const{
 	this->outerObject();
 	this->innerObject();
 }
